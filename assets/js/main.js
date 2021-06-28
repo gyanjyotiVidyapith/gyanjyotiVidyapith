@@ -1,9 +1,3 @@
-/**
-* Template Name: Mamba - v4.3.0
-* Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function () {
   "use strict";
 
@@ -238,28 +232,3 @@
 
 })()
 
-
-// form submission
-function clearForm() {
-  let name = document.getElementById('name');
-  let email = document.getElementById('email');
-  let subject = document.getElementById('subject');
-  let message = document.getElementById('message');
-
-  console.log(name);
-  name.value = '';
-  email.value = '';
-  subject.value = '';
-  message.value = '';
-
-  // let alert = document.createElement('alert');
-  // alert.className = 'alert alert-success';
-  // alert.setAttribute('role', 'alert');
-  // alert.value = 'Message sent successfully';
-
-  window.alert('Message sent successfully');
-
-
-
-
-}
